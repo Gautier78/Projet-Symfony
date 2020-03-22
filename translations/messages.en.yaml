@@ -1,0 +1,56 @@
+# /translations/messages.en.yaml
+
+#PANIER
+
+panier:
+  titre: 'Cart'
+  nb: 'There is nb item in your cart'
+  prc: 'Amount = price'
+
+
+tableauPanier:
+  nom: Name
+  quantite: Quantity
+  prix: Price
+  supprimer: 'Delete'
+
+
+
+ajouterPanier:
+  titre: 'Add a product'
+#PRODUIT
+
+produit:
+  titre: 'Products list'
+  nb: 'There is nb grades'
+
+
+tableauProduit:
+  photo: Picture
+  nom: Name
+  quantite: Quantity
+  prix: Price
+  supprimer: 'Delete'
+    
+categorie:
+  added: 'Categorie added'
+
+
+
+aucune:
+  titre: 'there is no product'
+
+Nom: 'Name'
+Photo: 'Picture'
+Quantite: 'Quantity'
+Prix: 'Price'
+
+Sauvegarder: 'Save'
+
+#FICHE
+fiche:
+  titre: 'Name of the product'
+
+Date ajout: date of add
+Etat: State
+Produit: Product

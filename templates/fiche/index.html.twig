@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FicheController!{% endblock %}
+
+{% block body %}
+
+  <h1>{{ 'fiche.titre'|trans}}</h1>
+  {% if fiches is not empty %}
+   <table border="1">
+       <thead>
+       
+       </thead>
+       <tbody>
+       {% for fiche in fiches %}
+          
+       {% endfor %}
+       </tbody>
+       </table>
+
+  {% else %}
+  <p>{{ 'aucune.titre'|trans}}</p>
+  {% endif %}
+  <h2>{{ 'ajouterPanier.titre'|trans}}</h2>
+
+  {{form(form_fiche_new)}}
+
+{% endblock %}
