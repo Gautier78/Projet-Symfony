@@ -1,0 +1,15 @@
+composer create-project symfony/website-skeleton symfony4-heroku/
+
+git init
+initialized empty git reposityory in ~/symfony4-heroku/.git/
+
+créer un Procfile
+
+git add .
+
+git commit -m "initial import"
+
+heroku git:remote -a your_name_app
+
+git push heroku master
+
