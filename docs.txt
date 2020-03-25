@@ -5,6 +5,8 @@ initialized empty git reposityory in ~/symfony4-heroku/.git/
 
 créer un Procfile
 
+heroku config:set APP_ENV=prod
+
 git add .
 
 git commit -m "initial import"
@@ -13,3 +15,13 @@ heroku git:remote -a your_name_app
 
 git push heroku master
 
+500: config/packages/prod/monolog.yaml/ + bdd locale config:
+    
+    nested:
+
+                type: stream
+                path: "php://stderr" # "%kernel.logs_dir%/%kernel.environment%.log"
+                level: debug
+
+
+404: créer un controller HomeController avec une route /
